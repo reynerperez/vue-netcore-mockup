@@ -1,0 +1,360 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Reyner\\source\\repos\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BD59C7B-AAB1-4B74-873D-7E4EF5D6B2F9}|Presentation\\Presentation.csproj|c:\\users\\reyner\\source\\repos\\backend\\presentation\\controllers\\invoicecontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BD59C7B-AAB1-4B74-873D-7E4EF5D6B2F9}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\invoicecontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BD59C7B-AAB1-4B74-873D-7E4EF5D6B2F9}|Presentation\\Presentation.csproj|c:\\users\\reyner\\source\\repos\\backend\\presentation\\controllers\\uploadfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BD59C7B-AAB1-4B74-873D-7E4EF5D6B2F9}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\uploadfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|c:\\users\\reyner\\source\\repos\\backend\\application\\invoices\\commands\\downloadfile\\downloadfilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|solutionrelative:application\\invoices\\commands\\downloadfile\\downloadfilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|c:\\users\\reyner\\source\\repos\\backend\\application\\invoices\\commands\\downloadfile\\downloadfilecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|solutionrelative:application\\invoices\\commands\\downloadfile\\downloadfilecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|c:\\users\\reyner\\source\\repos\\backend\\application\\invoices\\commands\\uploadfile\\uploadfilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|solutionrelative:application\\invoices\\commands\\uploadfile\\uploadfilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|c:\\users\\reyner\\source\\repos\\backend\\application\\invoices\\queries\\get\\getinvoicequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|solutionrelative:application\\invoices\\queries\\get\\getinvoicequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF9D5ECB-2CBE-4687-A26C-D4AFAAE92A7C}|Infrastructure\\Infrastructure.csproj|c:\\users\\reyner\\source\\repos\\backend\\infrastructure\\repositories\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF9D5ECB-2CBE-4687-A26C-D4AFAAE92A7C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|c:\\users\\reyner\\source\\repos\\backend\\application\\invoices\\queries\\get\\getinvoicehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|solutionrelative:application\\invoices\\queries\\get\\getinvoicehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|c:\\users\\reyner\\source\\repos\\backend\\application\\invoices\\commands\\uploadfile\\uploadfilecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|solutionrelative:application\\invoices\\commands\\uploadfile\\uploadfilecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|c:\\users\\reyner\\source\\repos\\backend\\application\\invoices\\commands\\uploadfile\\uploadfilecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|solutionrelative:application\\invoices\\commands\\uploadfile\\uploadfilecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|c:\\users\\reyner\\source\\repos\\backend\\application\\invoices\\commands\\update\\updateinvoicecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|solutionrelative:application\\invoices\\commands\\update\\updateinvoicecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|c:\\users\\reyner\\source\\repos\\backend\\application\\invoices\\commands\\update\\updateinvoicecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|solutionrelative:application\\invoices\\commands\\update\\updateinvoicecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|c:\\users\\reyner\\source\\repos\\backend\\application\\invoices\\commands\\delete\\deleteinvoicecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|solutionrelative:application\\invoices\\commands\\delete\\deleteinvoicecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|c:\\users\\reyner\\source\\repos\\backend\\application\\invoices\\commands\\create\\createinvoicecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|solutionrelative:application\\invoices\\commands\\create\\createinvoicecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|c:\\users\\reyner\\source\\repos\\backend\\application\\invoices\\queries\\list\\listinvoicehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|solutionrelative:application\\invoices\\queries\\list\\listinvoicehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BB842F-610D-4A6D-8180-1CC9949C07B9}|Domain\\Domain.csproj|c:\\users\\reyner\\source\\repos\\backend\\domain\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BB842F-610D-4A6D-8180-1CC9949C07B9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|c:\\users\\reyner\\source\\repos\\backend\\application\\invoices\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|solutionrelative:application\\invoices\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BD59C7B-AAB1-4B74-873D-7E4EF5D6B2F9}|Presentation\\Presentation.csproj|c:\\users\\reyner\\source\\repos\\backend\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BD59C7B-AAB1-4B74-873D-7E4EF5D6B2F9}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|c:\\users\\reyner\\source\\repos\\backend\\application\\invoices\\commands\\create\\createinvoicehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|solutionrelative:application\\invoices\\commands\\create\\createinvoicehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|c:\\users\\reyner\\source\\repos\\backend\\application\\invoices\\commands\\create\\createinvoicecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA0111E-3F5E-41C1-B427-300BDDD3F797}|Application\\Application.csproj|solutionrelative:application\\invoices\\commands\\create\\createinvoicecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UploadFileCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\UploadFile\\UploadFileCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Invoices\\Commands\\UploadFile\\UploadFileCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\UploadFile\\UploadFileCommandValidator.cs",
+              "RelativeToolTip": "Application\\Invoices\\Commands\\UploadFile\\UploadFileCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T02:28:46.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateInvoiceCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\Create\\CreateInvoiceCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Invoices\\Commands\\Create\\CreateInvoiceCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\Create\\CreateInvoiceCommandValidator.cs",
+              "RelativeToolTip": "Application\\Invoices\\Commands\\Create\\CreateInvoiceCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T02:28:20.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UploadFileHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\UploadFile\\UploadFileHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Invoices\\Commands\\UploadFile\\UploadFileHandler.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\UploadFile\\UploadFileHandler.cs",
+              "RelativeToolTip": "Application\\Invoices\\Commands\\UploadFile\\UploadFileHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T00:06:46.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UploadFileCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\UploadFile\\UploadFileCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Invoices\\Commands\\UploadFile\\UploadFileCommand.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\UploadFile\\UploadFileCommand.cs",
+              "RelativeToolTip": "Application\\Invoices\\Commands\\UploadFile\\UploadFileCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T00:06:30.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UploadFileController.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Presentation\\Controllers\\UploadFileController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\UploadFileController.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Presentation\\Controllers\\UploadFileController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\UploadFileController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T22:27:23.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateInvoiceCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\Update\\UpdateInvoiceCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Invoices\\Commands\\Update\\UpdateInvoiceCommand.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\Update\\UpdateInvoiceCommand.cs",
+              "RelativeToolTip": "Application\\Invoices\\Commands\\Update\\UpdateInvoiceCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T22:12:25.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetInvoiceHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Queries\\Get\\GetInvoiceHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Invoices\\Queries\\Get\\GetInvoiceHandler.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Queries\\Get\\GetInvoiceHandler.cs",
+              "RelativeToolTip": "Application\\Invoices\\Queries\\Get\\GetInvoiceHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T21:15:56.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InvoiceContoller.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Presentation\\Controllers\\InvoiceContoller.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\InvoiceContoller.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Presentation\\Controllers\\InvoiceContoller.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\InvoiceContoller.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAMwEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T22:19:43.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetInvoiceQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Queries\\Get\\GetInvoiceQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Invoices\\Queries\\Get\\GetInvoiceQuery.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Queries\\Get\\GetInvoiceQuery.cs",
+              "RelativeToolTip": "Application\\Invoices\\Queries\\Get\\GetInvoiceQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T03:35:06.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DownloadFileHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\DownloadFile\\DownloadFileHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Invoices\\Commands\\DownloadFile\\DownloadFileHandler.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\DownloadFile\\DownloadFileHandler.cs",
+              "RelativeToolTip": "Application\\Invoices\\Commands\\DownloadFile\\DownloadFileHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T03:28:44.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DownloadFileCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\DownloadFile\\DownloadFileCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Invoices\\Commands\\DownloadFile\\DownloadFileCommand.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\DownloadFile\\DownloadFileCommand.cs",
+              "RelativeToolTip": "Application\\Invoices\\Commands\\DownloadFile\\DownloadFileCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T03:28:00.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DeleteInvoiceCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\Delete\\DeleteInvoiceCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Invoices\\Commands\\Delete\\DeleteInvoiceCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\Delete\\DeleteInvoiceCommandValidator.cs",
+              "RelativeToolTip": "Application\\Invoices\\Commands\\Delete\\DeleteInvoiceCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T02:28:54.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InvoiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Infrastructure\\Repositories\\InvoiceRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\InvoiceRepository.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Infrastructure\\Repositories\\InvoiceRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\InvoiceRepository.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAIwH8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T19:19:58.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateInvoiceCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\Update\\UpdateInvoiceCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Invoices\\Commands\\Update\\UpdateInvoiceCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\Update\\UpdateInvoiceCommandValidator.cs",
+              "RelativeToolTip": "Application\\Invoices\\Commands\\Update\\UpdateInvoiceCommandValidator.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T02:29:03.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Domain\\Entities\\Invoice.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Invoice.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Domain\\Entities\\Invoice.cs",
+              "RelativeToolTip": "Domain\\Entities\\Invoice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T21:18:16.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ListInvoiceHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Queries\\List\\ListInvoiceHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Invoices\\Queries\\List\\ListInvoiceHandler.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Queries\\List\\ListInvoiceHandler.cs",
+              "RelativeToolTip": "Application\\Invoices\\Queries\\List\\ListInvoiceHandler.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwB4AAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T21:20:20.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateInvoiceHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\Create\\CreateInvoiceHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Invoices\\Commands\\Create\\CreateInvoiceHandler.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\Create\\CreateInvoiceHandler.cs",
+              "RelativeToolTip": "Application\\Invoices\\Commands\\Create\\CreateInvoiceHandler.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T22:19:36.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateInvoiceCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\Create\\CreateInvoiceCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Invoices\\Commands\\Create\\CreateInvoiceCommand.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\Commands\\Create\\CreateInvoiceCommand.cs",
+              "RelativeToolTip": "Application\\Invoices\\Commands\\Create\\CreateInvoiceCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T22:12:37.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InvoiceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\InvoiceDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Invoices\\InvoiceDTO.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Application\\Invoices\\InvoiceDTO.cs",
+              "RelativeToolTip": "Application\\Invoices\\InvoiceDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T22:10:06.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Reyner\\source\\repos\\backend\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\Reyner\\source\\repos\\backend\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwBoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T19:02:57.76Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
