@@ -9,14 +9,14 @@ using Domain.Entities;
 
 namespace Application.Invoices.Commands.Create
 {
-    internal class CreateInvoiceHandler : IRequestHandler<CreateInvoiceCommand,Unit>
+    internal class CreateInvoiceHandler : IRequestHandler<CreateInvoiceCommand, int?>
     {
         private readonly IInvoiceRepository _invoiceRepository;
         public CreateInvoiceHandler(IInvoiceRepository invoiceRepository)
         {
             _invoiceRepository = invoiceRepository;
         }
-        public async Task<Unit> Handle(CreateInvoiceCommand request, CancellationToken cancellationToken)
+        public async Task<int?> Handle(CreateInvoiceCommand request, CancellationToken cancellationToken)
         {
             Invoice toCreate = new Invoice()
             {
@@ -26,8 +26,8 @@ namespace Application.Invoices.Commands.Create
                 File = request.File,
             };
 
-            await _invoiceRepository.AddInvoice(toCreate);
-            return Unit.Value;
+            int id = await _invoiceRepository.AddInvoice(toCreate);
+            return id;
         }
     }
 }

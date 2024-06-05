@@ -10,12 +10,43 @@ namespace Infrastructure.Repository
 {
     public class InvoiceRepository : BasePostgresSqlRepository, IInvoiceRepository
     {
+
+        public async Task<List<Invoice>> SearchInvoices(string term)
+        {
+            try
+            {
+                var list = new List<Invoice>();
+                await using var conn = await getConnection();
+                await using var cmd = new NpgsqlCommand(StoredProcedures.SearchInvoices, conn);
+                cmd.Parameters.AddWithValue("term", term);
+                await using (var reader = await cmd.ExecuteReaderAsync())
+                {
+                    while (await reader.ReadAsync())
+                    {
+                        Invoice invoice = new Invoice();
+                        invoice.InvoiceId = reader.GetInt32("id");
+                        invoice.Name = reader.GetString("name");
+                        invoice.Date = reader.GetDateTime("date");
+                        invoice.Amount = reader.GetString("amount");
+                        invoice.File = reader.IsDBNull("file") ? "" : reader.GetString("file");
+                        list.Add(invoice);
+                    }
+                }
+                return list;
+            }
+            catch (Exception ex)
+            {
+                Log.Error("Get Invoice By ID: {@Exception}", ex);
+                throw;
+            }
+        }
+
         public async Task<List<Invoice>> GetAll()
         {
             try
             {
                 var list = new List<Invoice>();
-                await using (var conn = await getConnection()) 
+                await using (var conn = await getConnection())
                 await using (var cmd = new NpgsqlCommand(StoredProcedures.GetAllInvoices, conn))
                 await using (var reader = await cmd.ExecuteReaderAsync())
                 {
@@ -72,10 +103,11 @@ namespace Infrastructure.Repository
             }
         }
 
-        public async Task AddInvoice(Invoice toCreate)
+        public async Task<int> AddInvoice(Invoice toCreate)
         {
             try
             {
+                Log.Error("llamada a crear");
                 await using (var conn = await getConnection())
                 await using (var cmd = new NpgsqlCommand(StoredProcedures.CreateInvoice, conn))
                 {
@@ -84,7 +116,14 @@ namespace Infrastructure.Repository
                     cmd.Parameters.AddWithValue("amount", toCreate.Amount);
                     cmd.Parameters.AddWithValue("file", toCreate.File);
 
-                    await cmd.ExecuteNonQueryAsync();
+                    await using (var reader = await cmd.ExecuteReaderAsync())
+                    {
+                        while (await reader.ReadAsync())
+                        {
+                            return reader.GetInt32("_id");
+                        }
+                    }
+                    return 0;
                 }
             }
             catch (Exception ex)
@@ -92,7 +131,6 @@ namespace Infrastructure.Repository
                 Log.Error("Add Invoice: {@Exception}", ex);
                 throw;
             }
-
         }
 
         public async Task UpdateInvoice(Invoice toUpdate)

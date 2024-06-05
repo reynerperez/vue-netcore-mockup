@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+HrR5ba1N9g=",
+  "dgSpecHash": "8aTmq0pHv7U=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Reyner\\source\\repos\\backend\\Domain\\Domain.csproj",
+  "projectFilePath": "/Users/reynerperez/dev/vue-netcore-mockup-main/backend/Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

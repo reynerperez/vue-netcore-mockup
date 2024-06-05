@@ -7,17 +7,19 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Repository
 {
-    public interface IInvoiceRepository
-    {
+        public interface IInvoiceRepository
+        {
 
-        Task<List<Invoice>> GetAll();
+                Task<List<Invoice>> SearchInvoices(string term);
 
-        Task<Invoice?> GetInvoiceById(int invoiceId);
+                Task<List<Invoice>> GetAll();
 
-        Task AddInvoice(Invoice toCreate);
+                Task<Invoice?> GetInvoiceById(int invoiceId);
 
-        Task UpdateInvoice(Invoice toUpdate);
+                Task<int> AddInvoice(Invoice toCreate);
 
-        Task Delete(int invoiceId);
-    }
+                Task UpdateInvoice(Invoice toUpdate);
+
+                Task Delete(int invoiceId);
+        }
 }

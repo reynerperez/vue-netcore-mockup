@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Application.Invoices.Commands.Create
 {
-    public class CreateInvoiceCommand: IRequest<Unit>
+    public class CreateInvoiceCommand : IRequest<int?>
     {
         public string Title { get; set; } = default!;
         public string Date { get; set; } = string.Empty;

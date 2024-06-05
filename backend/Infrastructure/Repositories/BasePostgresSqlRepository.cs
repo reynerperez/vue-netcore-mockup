@@ -25,9 +25,10 @@ namespace Infrastructure.Repositories
 
         public static class StoredProcedures
         {
+            public static string SearchInvoices = $"select * from search_invoices(@term)";
             public static string GetAllInvoices = $"select * from get_all_invoices()";
             public static string GetInvoicesById = $"select * from get_invoice_by_id(@id)";
-            public static string CreateInvoice = $"call create_invoice(@name, @date, @amount, @file)";
+            public static string CreateInvoice = $"call create_invoice(@name, @date, @amount, @file, null)";
             public static string UpdateInvoice = $"call update_invoice(@id, @name, @date, @amount, @file)";
             public static string DeleteInvoice = $"call delete_invoice(@id)";
 

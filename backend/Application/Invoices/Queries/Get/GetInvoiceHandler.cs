@@ -21,9 +21,11 @@ namespace Application.Invoices.Queries.Get
         public async Task<InvoiceDTO?> Handle(GetInvoiceQuery request, CancellationToken cancellationToken)
         {
 
-            Invoice invoice = await _invoiceRepository.GetInvoiceById(request.InvoiceId);
+            Invoice? invoice = await _invoiceRepository.GetInvoiceById(request.InvoiceId);
 
-            return invoice == null ? new InvoiceDTO(invoice.InvoiceId, invoice.Name, invoice.Date.ToString("dd/M/yyyy"), invoice.Amount, invoice.File) : null;
+            return invoice != null ? new InvoiceDTO(invoice.InvoiceId, invoice.Name, invoice.Date.ToString("dd/M/yyyy"), invoice.Amount, invoice.File) : null;
         }
     }
 }
+
+

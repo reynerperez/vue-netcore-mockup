@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Reyner\source\repos\backend\Application\bin\Debug\net8.0\Application.deps.json
 C:\Users\Reyner\source\repos\backend\Application\bin\Debug\net8.0\Application.dll
 C:\Users\Reyner\source\repos\backend\Application\bin\Debug\net8.0\Application.pdb
@@ -15,3 +16,39 @@ C:\Users\Reyner\source\repos\backend\Application\obj\Debug\net8.0\Application.dl
 C:\Users\Reyner\source\repos\backend\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\Reyner\source\repos\backend\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\Reyner\source\repos\backend\Application\obj\Debug\net8.0\ref\Application.dll
+=======
+C:/Users/Reyner/source/repos/backend/Application/bin/Debug/net8.0/Application.deps.json
+C:/Users/Reyner/source/repos/backend/Application/bin/Debug/net8.0/Application.dll
+C:/Users/Reyner/source/repos/backend/Application/bin/Debug/net8.0/Application.pdb
+C:/Users/Reyner/source/repos/backend/Application/bin/Debug/net8.0/Domain.dll
+C:/Users/Reyner/source/repos/backend/Application/bin/Debug/net8.0/Infrastructure.dll
+C:/Users/Reyner/source/repos/backend/Application/bin/Debug/net8.0/Domain.pdb
+C:/Users/Reyner/source/repos/backend/Application/bin/Debug/net8.0/Infrastructure.pdb
+C:/Users/Reyner/source/repos/backend/Application/obj/Debug/net8.0/Application.csproj.AssemblyReference.cache
+C:/Users/Reyner/source/repos/backend/Application/obj/Debug/net8.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Reyner/source/repos/backend/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache
+C:/Users/Reyner/source/repos/backend/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
+C:/Users/Reyner/source/repos/backend/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache
+C:/Users/Reyner/source/repos/backend/Application/obj/Debug/net8.0/Applicat.44B5EDA2.Up2Date
+C:/Users/Reyner/source/repos/backend/Application/obj/Debug/net8.0/Application.dll
+C:/Users/Reyner/source/repos/backend/Application/obj/Debug/net8.0/refint/Application.dll
+C:/Users/Reyner/source/repos/backend/Application/obj/Debug/net8.0/Application.pdb
+C:/Users/Reyner/source/repos/backend/Application/obj/Debug/net8.0/ref/Application.dll
+/Users/reynerperez/dev/vue-netcore-mockup-main/backend/Application/bin/Debug/net8.0/Application.deps.json
+/Users/reynerperez/dev/vue-netcore-mockup-main/backend/Application/bin/Debug/net8.0/Application.dll
+/Users/reynerperez/dev/vue-netcore-mockup-main/backend/Application/bin/Debug/net8.0/Application.pdb
+/Users/reynerperez/dev/vue-netcore-mockup-main/backend/Application/bin/Debug/net8.0/Domain.dll
+/Users/reynerperez/dev/vue-netcore-mockup-main/backend/Application/bin/Debug/net8.0/Infrastructure.dll
+/Users/reynerperez/dev/vue-netcore-mockup-main/backend/Application/bin/Debug/net8.0/Domain.pdb
+/Users/reynerperez/dev/vue-netcore-mockup-main/backend/Application/bin/Debug/net8.0/Infrastructure.pdb
+/Users/reynerperez/dev/vue-netcore-mockup-main/backend/Application/obj/Debug/net8.0/Application.csproj.AssemblyReference.cache
+/Users/reynerperez/dev/vue-netcore-mockup-main/backend/Application/obj/Debug/net8.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/reynerperez/dev/vue-netcore-mockup-main/backend/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache
+/Users/reynerperez/dev/vue-netcore-mockup-main/backend/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
+/Users/reynerperez/dev/vue-netcore-mockup-main/backend/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache
+/Users/reynerperez/dev/vue-netcore-mockup-main/backend/Application/obj/Debug/net8.0/Applicat.44B5EDA2.Up2Date
+/Users/reynerperez/dev/vue-netcore-mockup-main/backend/Application/obj/Debug/net8.0/Application.dll
+/Users/reynerperez/dev/vue-netcore-mockup-main/backend/Application/obj/Debug/net8.0/refint/Application.dll
+/Users/reynerperez/dev/vue-netcore-mockup-main/backend/Application/obj/Debug/net8.0/Application.pdb
+/Users/reynerperez/dev/vue-netcore-mockup-main/backend/Application/obj/Debug/net8.0/ref/Application.dll
+>>>>>>> 989c1cc (add validations, authentication, search)

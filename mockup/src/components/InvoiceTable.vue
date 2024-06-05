@@ -1,5 +1,5 @@
 <template>
-    <v-data-table :items="invoices" :headers="headers">
+    <v-data-table :items="invoices" :headers="headers" class="rounded-lg" color="success" :loading="loading">
         <template v-slot:item.file="{ item }">
             <v-btn-group v-if="item.file.length > 0" density="compact" color="success">
                 <v-btn class="custom" size="small" variant="tonal" color="success" prepend-icon="mdi-paperclip"
@@ -58,7 +58,7 @@
 <script setup lang="ts">
 import { API_URL } from '../services/const.ts';
 import { computed, ref } from 'vue'
-import { useStore } from 'vuex'
+import { useInvoiceStore } from '@/stores/invoice'
 import { toCurrency } from '@/helpers'
 import { Invoice } from '@/models/Invoice';
 import ConfirmDialog from '../components/ConfirmDialog.vue';
@@ -72,18 +72,19 @@ const headers = [
     { title: 'Actions', key: 'actions' },
 ]
 
-const store = useStore()
+const store = useInvoiceStore()
 
 const url = API_URL
 
-const invoices = computed<Invoice[]>(() => store.state.invoice.invoices)
+const invoices = computed<Invoice[]>(() => store.invoices)
+const loading = computed<Invoice[]>(() => store.loadingTable)
 const selectedId = ref<number>(0)
 
 const showDelete = ref(false)
 const showUpload = ref(false)
 
 function handleEdit(invoice: Invoice) {
-    store.dispatch('editInvoiceDialog', invoice)
+    store.editInvoiceDialog(invoice)
 }
 
 

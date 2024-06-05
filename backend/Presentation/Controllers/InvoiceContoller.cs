@@ -1,12 +1,16 @@
 ﻿using Application.Invoices;
 using Application.Invoices.Commands.Create;
 using Application.Invoices.Commands.Delete;
-using Application.Invoices.Commands.DownlaodFile;
 using Application.Invoices.Commands.Update;
+using Application.Invoices.Queries.Downlaod;
 using Application.Invoices.Queries.Get;
 using Application.Invoices.Queries.List;
+using Application.Invoices.Queries.Search;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
+using System.Diagnostics;
 using System.Reflection.Metadata;
 
 namespace Presentation.Controllers
@@ -22,49 +26,60 @@ namespace Presentation.Controllers
             _mediator = mediator;
         }
 
+
         [HttpGet]
-        public async Task<IActionResult> ListInvoices() {
-            List<InvoiceDTO> list = await _mediator.Send(new ListInvoiceQuery());
+        public async Task<IActionResult> Search([FromQuery] SearchInvoiceQuery query)
+        {
+            List<InvoiceDTO> list;
+            if (query != null && query.Term != null && query.Term?.Trim() != "")
+                list = await _mediator.Send(query);
+            else
+                list = await _mediator.Send(new ListInvoiceQuery());
             return Ok(list);
         }
 
         [HttpGet("{InvoiceId}")]
-        public async  Task<IActionResult> GetProductById([FromRoute] GetInvoiceQuery query) {
+        public async Task<IActionResult> Get([FromRoute] GetInvoiceQuery query)
+        {
             InvoiceDTO invoice = await _mediator.Send(query);
             return invoice != null ? Ok(invoice) : NotFound();
-        } 
-
-        [HttpPost]
-        public async Task<IActionResult> CreateInvoices([FromBody] CreateInvoiceCommand command)
-        {
-            await _mediator.Send(command);
-            return Created();
         }
 
-        [HttpPatch]
-        public async Task<IActionResult> UpdateInvoice([FromBody] UpdateInvoiceCommand command)
+        [HttpPost]
+        [Authorize]
+        public async Task<IActionResult> Create([FromBody] CreateInvoiceCommand command)
+        {
+            int? id = await _mediator.Send(command);
+
+            return Ok(id);
+
+            // var createdResource = new { InvoiceId = id };
+            // var routeValues = new { InvoiceId = createdResource.InvoiceId };
+            // return CreatedAtAction(nameof(Get), routeValues, createdResource);
+        }
+
+        [HttpPut]
+        [Authorize]
+        public async Task<IActionResult> Update([FromBody] UpdateInvoiceCommand command)
         {
             await _mediator.Send(command);
             return Ok();
         }
 
         [HttpDelete("{InvoiceId}")]
-        public async Task<IActionResult> DeleteInvoice([FromRoute] DeleteInvoiceCommand command)
+        [Authorize]
+        public async Task<IActionResult> Delete([FromRoute] DeleteInvoiceCommand command)
         {
             await _mediator.Send(command);
-            return Ok();
+            return NoContent();
         }
 
         [HttpGet("download")]
-        public async Task<IActionResult> GetBlobDownload([FromQuery] DownloadFileCommand command)
+        [Authorize]
+        public async Task<IActionResult> Download([FromQuery] DownloadFileQuery command)
         {
-
             byte[]? file = await _mediator.Send(command);
-
-
             return file != null ? File(file, "application/octet-stream") : NotFound();
         }
-
-
     }
 }

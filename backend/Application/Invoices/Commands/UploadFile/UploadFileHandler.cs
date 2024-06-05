@@ -20,8 +20,9 @@ namespace Application.Invoices.Commands.UploadFile
 
         public async Task<string> Handle(UploadFileCommand request, CancellationToken cancellationToken)
         {
-            Invoice invoice = await _invoiceRepository.GetInvoiceById(request.Id);
-            if (invoice != null) {
+            Invoice? invoice = await _invoiceRepository.GetInvoiceById(request.Id);
+            if (invoice != null)
+            {
 
                 string extention = Path.GetExtension(request.File.FileName);
                 string filename = Guid.NewGuid().ToString() + extention;

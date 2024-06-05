@@ -12,20 +12,20 @@
 
 <script setup lang="ts">
 import { defineModel, defineProps, computed } from 'vue'
-import { useStore } from 'vuex'
+import { useInvoiceStore } from '@/stores/invoice'
 
-const store = useStore()
+const store = useInvoiceStore()
 const model = defineModel()
 
 const props = defineProps<{
     id?: number
 }>()
 
-const loading = computed(() => store.state.invoice.loading)
+const loading = computed(() => store.loading)
 
 
 function handleDelete() {
-    store.dispatch('deleteInvoice', props.id)
+    store.deleteInvoice(props.id)
     model.value = false
 }
 </script>
